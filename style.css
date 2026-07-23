@@ -1,68 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: radial-gradient(circle, #3b2600, #000000);
-    color: #ffffff;
-    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:
+    linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)),
+    url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23");
+    background-size: cover;
+    background-position: center;
+    color: #eee;
 }
 
 header {
-    padding: 60px 20px;
-    background: linear-gradient(180deg, #000000, #4a3000);
-    border-bottom: 3px solid #ffd700;
+    padding: 90px 20px;
+    text-align: center;
+    border-bottom: 1px solid #b8942f;
 }
 
-h1 {
-    color: #ffd700;
-    font-size: 45px;
-    text-shadow: 0 0 20px #ffd700;
+header h1 {
+    font-size: 55px;
+    letter-spacing: 5px;
+    color: #d4af37;
+    text-transform: uppercase;
 }
 
-h2 {
-    color: #ffd700;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
+header p {
+    font-size: 22px;
+    color: #bbb;
 }
 
 .hero {
-    margin: 40px auto;
-    padding: 35px;
-    max-width: 600px;
-    background: rgba(0,0,0,0.75);
-    border: 2px solid #ffd700;
-    border-radius: 20px;
-    box-shadow: 0 0 25px #ffd700;
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 50px;
+    background: rgba(10,10,10,0.9);
+    border: 1px solid #b8942f;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(212,175,55,0.25);
+    text-align: center;
+}
+
+h2 {
+    color: #d4af37;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: #ccc;
 }
 
 button {
-    margin-top: 25px;
-    padding: 16px 40px;
-    background: linear-gradient(#ffd700, #b8860b);
-    color: #000;
-    border: none;
-    border-radius: 12px;
+    margin-top: 35px;
+    padding: 18px 50px;
+    background: transparent;
+    border: 1px solid #d4af37;
+    color: #d4af37;
     font-size: 18px;
-    font-weight: bold;
+    letter-spacing: 2px;
     cursor: pointer;
-    box-shadow: 0 0 20px #ffd700;
+    transition: .4s;
 }
 
 button:hover {
-    transform: scale(1.08);
-}
-
-section {
-    margin: 25px;
-    padding: 25px;
+    background: #d4af37;
+    color: #000;
 }
 
 footer {
-    margin-top: 50px;
-    padding: 20px;
-    background: #000;
-    color: #aaa;
-    border-top: 1px solid #ffd700;
+    margin-top: 70px;
+    padding: 30px;
+    text-align: center;
+    background: #050505;
+    color: #777;
+    border-top: 1px solid #222;
 }
