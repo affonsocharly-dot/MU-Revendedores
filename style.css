@@ -1,46 +1,58 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #080808;
+    background: radial-gradient(circle, #241800, #050505);
     color: white;
     text-align: center;
 }
 
 header {
-    padding: 40px 20px;
-    background: linear-gradient(135deg, #000000, #3b2600);
-    border-bottom: 2px solid #d4af37;
+    padding: 50px 20px;
+    background: linear-gradient(#000, #3a2600);
+    border-bottom: 3px solid #d4af37;
 }
 
 h1 {
-    color: #d4af37;
-    font-size: 40px;
+    color: #ffd700;
+    font-size: 42px;
+    text-shadow: 0 0 15px #d4af37;
 }
 
 h2 {
-    color: #f5d76e;
+    color: #ffd700;
 }
 
 .hero {
-    padding: 50px 20px;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 500px;
+    background: rgba(0,0,0,0.7);
+    border: 2px solid #d4af37;
+    border-radius: 15px;
 }
 
 button {
+    margin-top: 20px;
+    padding: 15px 35px;
     background: #d4af37;
-    color: #000;
+    color: black;
     border: none;
-    padding: 15px 25px;
     border-radius: 10px;
+    font-size: 18px;
     font-weight: bold;
-    cursor: pointer;
+    box-shadow: 0 0 20px #d4af37;
 }
 
 button:hover {
-    background: #fff;
+    transform: scale(1.05);
+}
+
+section {
+    padding: 25px;
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 20px;
     background: #000;
     color: #aaa;
